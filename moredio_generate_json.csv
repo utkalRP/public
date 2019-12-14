@@ -1,0 +1,36 @@
+name,low,genre,lang
+ABP News,https://abp-i.akamaihd.net/hls/live/765529/abphindi/masterhls_1564.m3u8,News,Hindi
+B4U Movies,http://103.199.161.254/Content/b4umovies/Live/Channel(B4UMovies)/index.m3u8,Movies,Hindi
+Movie House,http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8,Movies,Hindi
+B4U Music,http://103.199.161.254/Content/B4Umusic/Live/Channel(B4Umusic)/index.m3u8,Music,Hindi
+B4U Plus,http://livecdnh3.tvanywhere.ae/hls/b4uplus/04.m3u8,Music,Hindi
+BBC World News,http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8,News,English
+Bollywood Classics,https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8,Music,Hindi
+Cinema TV,https://acv.asianetmobiletvplus.com/channels/cinematv_ptiwautekttzxckrgphaarueatccfiaz/playlist.m3u8,Movies,Hindi
+CNBC Awaz,https://cnbcawaaz-lh.akamaihd.net/i/cnbcawaaz_1@174872/index_5_av-p.m3u8,News,Hindi
+CNBC TV18,https://cnbctv18-lh.akamaihd.net/i/cnbctv18_1@174868/index_5_av-p.m3u8,News,English
+DD National,http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8,Misc,Hindi
+Dhamaal,http://linear06hun-lh.akamaihd.net/i/dhamaal_1@665243/index_2128_av-p.m3u8,Movies,Hindi
+Dil Se,http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/master.m3u8,Music,Hindi
+Kadak Hits,http://linear01hun-lh.akamaihd.net/i/faaduhits_1@660838/master.m3u8,Music,Hindi
+DSport,http://jiocgehub.jio.ril.com/Dsports_HD/Dsports_HD_800.m3u8,Sports,English
+ET Now,http://etnowweblive-lh.akamaihd.net/i/ETN_1@348070/index_576_av-b.m3u8,News,English
+Fashion TV,http://fash1043.cloudycdn.services/slive/_definst_/ftv_pg16_adaptive.smil/playlist.m3u8,Misc,English
+Hathway Cine Channel,https://acv.asianetmobiletvplus.com/channels/hathwayccc_mxqlfydxrrnvteglmkeacyuuhyfjrqec/playlist.m3u8,Movies,Hindi
+India Today,https://feeds.intoday.in/hltapps/api/master.m3u8,News,English
+Kanak News,http://139.59.13.228/live/stream/chunks.m3u8,News,Odia
+Masti,http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8,Music,Hindi
+Mirror Now,http://mbnowweb-lh.akamaihd.net/i/MRN_1@346545/index_576_av-p.m3u8,News,English
+Movies Now,https://timesnow.airtel.tv/live/MN_pull/master.m3u8,Movies,English
+NDTV 24x7,https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8,News,English
+NDTV India,https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/masterp_480p@3.m3u8,News,Hindi
+Romedy Now,https://timesnow.airtel.tv/live/RN_pull/master.m3u8,Movies,English
+Star Movies,http://livecdnh1.tvanywhere.ae/hls/star_movies/04.m3u8,Movies,English
+Star World,http://livecdnh1.tvanywhere.ae/hls/star_world/04.m3u8,Misc,English
+Prameya News7,http://news7.mycast.in/encode/news7/chunks.m3u8,News,Odia
+Kalinga TV,https://kalingatv.mycast.in/live/stream/chunks.m3u8,News,Odia
+News18 Odia,https://etv-oriya.akamaized.net/i/n18odia_1@179753/index_4_av-p.m3u8,News,Odia
+Sony HD,http://95.154.194.84:8000/live/zJM09iNedV/m9uWurszXN/6460.m3u8,Misc,Hindi
+Sony SAB HD,http://95.154.194.84:8000/live/zJM09iNedV/m9uWurszXN/6466.m3u8,Misc,Hindi
+Star Plus HD,http://95.154.194.84:8000/live/zJM09iNedV/m9uWurszXN/8179.m3u8,Misc,Hindi
+Zee TV HD,http://95.154.194.84:8000/live/zJM09iNedV/m9uWurszXN/6489.m3u8,Misc,Hindi
