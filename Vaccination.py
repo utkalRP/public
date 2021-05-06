@@ -23,4 +23,8 @@ for pin in pins:
         if len(resList['sessions']) == 0:
             print('No slots available for PIN: {} and Date: {}'.format(pin, day))
         for s in resList['sessions']:
-            print('Avilable slot on {}:\nAddress:\t{}, {}, {}, {}, {}\nSlots:\t\t{}\nFee Type:\t{}\nFee:\t\t{}\nCapacity:\t{}\nMin Age:\t{}\nVaccine:\t{}\n'.format(day, s["name"], s["address"], s["block_name"], s["district_name"], s["state_name"], s["slots"], s["fee_type"], s["fee"], s["available_capacity"], s["min_age_limit"], s["vaccine"]))
+            print('Avilable slot on {}'.format(day))
+            print('-' * 80)
+            for k in ['name','address', 'state_name', 'district_name', 'block_name', 'pincode', 'fee_type', 'available_capacity', 'fee', 'min_age_limit', 'vaccine', 'slots']:
+                print('%-20s : %s' % (k.title(), s[k]))
+            print()
