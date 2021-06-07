@@ -5,7 +5,7 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 #Enter one or more PIN codes separated by comma, ex: ['123456', '654321']
-pins = ['500019','502032']
+pins = ['500019','502032','759126']
 
 #Enter for how many days you want to search from today
 advDay = 30
@@ -24,11 +24,12 @@ try:
             if len(resList['sessions']) == 0:
                 print('No slots available for PIN: {} and Date: {}'.format(pin, day))
             for s in resList['sessions']:
-                print('Avilable slot on {}'.format(day))
-                print('-' * 80)
-                for k in ['name','address', 'state_name', 'district_name', 'block_name', 'pincode', 'fee_type', 'available_capacity_dose1', 'available_capacity_dose2', 'fee', 'min_age_limit', 'vaccine', 'slots']:
-                    print('%-25s : %s' % (k.title(), s[k]))
-                print()
+                if s['available_capacity_dose1'] > 0 or s['available_capacity_dose2'] > 0:
+                    print('Avilable slot on {}'.format(day))
+                    print('-' * 80)
+                    for k in ['name','address', 'state_name', 'district_name', 'block_name', 'pincode', 'fee_type', 'available_capacity_dose1', 'available_capacity_dose2', 'fee', 'min_age_limit', 'vaccine', 'slots']:
+                        print('%-25s : %s' % (k.title(), s[k]))
+                    print()
 except Exception as e:
     print(str(e))
     
